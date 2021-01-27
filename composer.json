@@ -1,0 +1,27 @@
+{
+    "name": "valpfei/td1",
+    "type": "project",
+    "license": "MIT",
+    "authors":
+    [
+        {
+            "name": "valpfeil",
+            "email": "valentin.pfeil@ecole-air.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    
+    "require":
+    {
+        "monolog/monolog": "^2.2",
+        "fakerphp/faker": "^1.13"
+    },
+
+    "autoload":
+    {
+            "psr-4":    
+                {
+                "valpfei\\td1\\": "src/"
+                }
+    }
+}
